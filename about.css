@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #050505;  /* Black */ /* Colore di sfondo per tutto il sito */
+    /* Impondo che tutto il documento works.html usi Courier Prime come carattere */
+    font-family: 'Courier Prime', monospace;
+  }
+  
+  /* Stili per la barra del menù */
+  .menu-container {
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    /*border: solid rgb(224, 18, 18);*/
+    }
+    .menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    /*border: solid rgb(224, 18, 18);*/
+    align-items: center;
+    }
+    .about {
+    margin-left: 20px;
+    /*border: solid rgb(224, 18, 18);*/
+      }
+    .works {
+     margin-left: auto;
+     /*border: solid rgb(224, 18, 18);*/
+        }
+    .ap{
+    align-self: center;
+    /*border: solid rgb(224, 18, 18);*/
+    }
+    .name{
+      display: flex;
+      margin-left: 347px;
+      width:max-content
+      justify-content: center;
+      /*border: solid rgb(224, 18, 18);*/
+    }
+
+
+
+    /* Stili per griglie */
+  .photo-grid-container {
+    display: flex;
+    
+    justify-content: center;
+    /*border: solid rgb(224, 18, 18);*/
+  }
+  
+  .photo-grid {
+    width: 2000px;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;     
+    /*border: solid rgb(224, 18, 18);*/
+  }
+
+}
+.photo-grid-item {
+  display: flex;
+  justify-content: center;
+  border: 5px solid #050505; 
+  /*border: solid rgb(224, 18, 18);*/
+  
+}
+ 
+  .first-item {
+    align-self: center;
+    height: 255px;
+    display: flex;
+    /*border: solid rgb(224, 18, 18);*/
+    margin-right: 30px;
+; }
+    
+  .last-item {
+    align-self: center;
+    height: 280px;
+    width: 600px;
+    color: #fff;
+    display: flex;
+    /*border: solid rgb(224, 18, 18);*/
+    margin-left: 30px; }
+
+
+  /* Stili footer */
+  .footer {
+    margin-top: 50px;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    border-top: 10px solid #050505; 
+    /*border: solid rgb(224, 18, 18);*/
+  }
+
+  .social{
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    align-self: flex-end; 
+    /*border: solid rgb(224, 18, 18);*/
+  }
+
